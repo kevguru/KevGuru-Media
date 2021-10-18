@@ -16,7 +16,7 @@ body::before{
 	right: 0px;
 	bottom: 0px;
 	left: 0px;
-	opacity: 0.20;
+	opacity: 0.;
 }
 #container{
 	position: relative;
@@ -28,10 +28,11 @@ body::before{
 	margin-left: 1.6%;
 	padding: 0 0 0 3px;
 	/*font-size: 105%;*/
-	color: goldenrod;
+	color: #DB3EB1;
 }
 
 #navbar{
+	z-index: 1;
 	position: fixed;
 	background-color: #261334;
 	width: 100%;
@@ -54,22 +55,22 @@ body::before{
 	font-weight: bold;
 }
 #about-link:hover{
-	color: goldenrod;
+	color: #4D4DFF;
 	transition-duration: .35s;
 
 }
 #work-link:hover{
-	color: goldenrod;
+	color: #4D4DFF;
 	transition-duration: .35s;
 
 }
 #pricing-link:hover{
-	color: goldenrod;
+	color: #4D4DFF;
 	transition-duration: .35s;
 
 }
 #contact-link:hover{
-	color: goldenrod;
+	color: #4D4DFF;
 	transition-duration: .35s;
 
 }
@@ -80,11 +81,14 @@ body::before{
 	text-align: center;
 }
 #welcome-line{
+	position: relative;
 	display: inline-block;
 	font-size: 7vh;/*550%;*/
 	margin-bottom: 0;
 	font-weight: 400;
 	padding-top: 5%;
+	color: #DB3EB1;
+	padding-bottom: 8%;
 }
 #kevguru-media-line{
 	display: inline-block;
@@ -92,10 +96,42 @@ body::before{
 	margin-bottom: 0;
 	font-weight: 700;
 	margin-top: 0;
-	color: goldenrod;
+	color: #4D4DFF;
 	padding-top: 5%;
 	padding-bottom: 3%;
 }
+
+#selfie{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-bottom: 10%;
+	border: blue solid 3px;
+	opacity: .85;
+}
+
+#smiley{
+	display: inline;
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	margin-left: 46%;
+	transform: rotate(20deg);
+	opacity: .9;
+}
+
+#palmtree{
+	display: inline;
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	transform: rotate(0deg);
+	margin: -25%;
+	margin-top: 21.5%;
+	transform: rotate(-30deg);
+	opacity: .9;
+}
+
 #welcome-para{
 	margin-left: 10%;
 	margin-right: 10%;
@@ -106,7 +142,7 @@ body::before{
 	margin-bottom: 5%;
 }
 hr{
-	background-color: goldenrod;
+	background-color: blue;
 	height: 1px;
 	border: none;
 	width: 90%;
@@ -122,6 +158,7 @@ hr{
 	margin-top: 7%;
 	font-size: 250%;
 	font-weight: 700;
+	color: #DB3EB1;
 }
 
 .project-tile{
@@ -130,6 +167,12 @@ hr{
 	grid-template-columns: auto;
 	border: blue solid;
 	margin: 3%;
+	background-color: blue;
+}
+
+.project-tile:hover{
+	opacity: .5;
+	transition-duration: .35s;
 }
 
 .project-image{
@@ -152,12 +195,14 @@ hr{
 
 
 #contact-section{
-	margin-top: 18vh;/*10%;*/
+	margin-top: 10vh;/*10%;*/
+	text-align: center;
 }
 #contact-line{
 	text-align: center;
 	font-size: 250%;
 	font-weight: 700;
+	color: #DB3EB1;
 }
 #contact-info{
 	text-align: center;
@@ -165,10 +210,18 @@ hr{
 	font-size: 120%;
 	letter-spacing: 3px;
 }
+
+#github-link{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-top: 6%;
+}
+
 footer{
 	display: inline-block;
 	width: 100%;
-	margin-top: 30vh;
+	margin-top: 9vh;
 	font-weight: 300;
 }
 #footer-nav-links{
