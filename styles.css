@@ -54,21 +54,39 @@ body::before{
 	font-size: 1.3vh;/*110%;*/
 	font-weight: bold;
 }
+
+#about-link{
+	text-decoration: none;
+	color: white;
+}
+
 #about-link:hover{
 	color: #4D4DFF;
 	transition-duration: .35s;
 
 }
+
+#work-link{
+	text-decoration: none;
+	color: white;
+}
+
 #work-link:hover{
 	color: #4D4DFF;
 	transition-duration: .35s;
 
 }
-#pricing-link:hover{
+/*#pricing-link:hover{
 	color: #4D4DFF;
 	transition-duration: .35s;
 
+}*/
+
+#contact-link{
+	text-decoration: none;
+	color: white;
 }
+
 #contact-link:hover{
 	color: #4D4DFF;
 	transition-duration: .35s;
