@@ -1,111 +1,116 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Kev Guru Media</title>
- 	<link rel="stylesheet" type="text/css" href="styles.css">
+<title>Kev Guru Media</title>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
-
+<video autoplay muted loop id="tech-background">
+<source src="tech-background.mp4" type="video/mp4">
+</video>
 <div id="container">
-
-	<nav id="navbar">
+	<nav id="top-nav">
 		<div id="logo-container">
-			<h1 id="logo">KEVGURU MEDIA</h1>
+			<img id="logo" src="kevgurulogowhite.png" alt="Logo">
 		</div>
-		<div id="nav-links">
-			<a href="#welcome-section" id="about-link">ABOUT</a>
-			<a href="#work-section" id="work-link">WORK</a>
-			<!--<a id="pricing-link">PRICING</a>-->
-			<a href="#contact-section" id="contact-link">CONTACT</a>
+		<div id="menu-container">
+			<div class="menu-icon"></div>
+			<div class="menu-icon"></div>
+			<div class="menu-icon"></div>
 		</div>
 	</nav>
 
-	<div id="welcome-section">
-		<h2 id="welcome-line">Welcome!</h2><br><!--<h2 id="kevguru-media-line">KEVGURU MEDIA</h2>-->
-		<img id="smiley" src="https://cdn130.picsart.com/308506843289211.png" alt="smiley photo">
-		<img id="palmtree" src="https://www.clipartmax.com/png/full/221-2211439_palm-tree-clipart-neon-neon-palm-tree-png.png" alt="palm tree">
-		<img id="selfie" src="https://i1.sndcdn.com/avatars-yzsDdyTlI3lvdCf6-vziQfw-t500x500.jpg" alt="selfie photo">
-		<p id="welcome-para">My name is Kev, and I like to design all kinds of things. I specialize in web development. I have a passion for making beautiful interfaces with excellent usability.
+<div id="mobile-container">
+	<div id="mobile-nav-menu">
+		<div class="mobile-nav-link-div">
+	  		<a class="mobile-nav-link" id="home-mobile-link">Home</a>
+		</div>
+		<div class="mobile-nav-link-div">
+	 		 <a class="mobile-nav-link" id="about-mobile-link">About</a>
+		</div>
+		<div class="mobile-nav-link-div">
+	  			<a class="mobile-nav-link" id="work-mobile-link">Work</a>
+		</div>
+		<div class="mobile-nav-link-div">
+	 		 <a class="mobile-nav-link" id="contact-mobile-link">Contact</a>
+		</div>
+		<div><p id="close-menu">X</p></div>
+	</div>
+</div>
 
-As a wearer of many hats, my experience also includes music, art, and animation. I'm always curious and always learning...
-‍
-​I'm a native from New Jersey and certified lover of pineapple on pizza. I currently reside in New Jersey.</p>	
+	<div id="landing-section">
+		<h1 id="head-title">Kev Guru Media</h1>
+		<p id="head-desc">"Fill the world with emotion, through the power of creativity and technology."<br> - Sony</p>
 	</div>
 
-	<hr>
+	<div id="about-section">
+		<h1 id="about-title">About</h1>
+    	<img id="about-picture" src="colorful.jpg" alt="about picture">
+		<p id="head-desc">Hi my name is Kev Guru, and I like to design all kinds of things. I specialize in web development. I have a passion for making creative and beautiful interfaces with excellent usability. I know HTML, CSS, Javascript, Git, and React. As a wearer of many hats, my experience also includes music, art, and animation. I'm always curious and always learning.</p>
+	</div>
 
+	
 	<div id="work-section">
-		<h3 id="work-line">WORK</h3>
-		<div class="project-tile">
-			<a href="https://kevguru.github.io/Elvis-Presley-Tribute/" target="_blank"><img class="project-image" src="https://yt3.ggpht.com/ytc/AKedOLSHeY-9kkXh8Hu2GOtPwsfLWFeQG10pOU8kCGn6kA=s900-c-k-c0x00ffffff-no-rj" alt="Image Placeholder"></a>
-			<p>Elvis Presley Tribute</p>
-		</div>
-
-		<div class="project-tile">
-			<a href="https://kevguru.github.io/Record-Label-Form/" target="_blank"><img class="project-image" src="https://media.wired.com/photos/5fe2383afe6cb52eb1cc8aee/master/pass/Gear-Record-Players-660246463.jpg"></a>
-			<p>Record Label Form</p>
-		</div>
-
-		<div class="project-tile">
-			<a href="https://kevguru.github.io/Color-Flipper/" target="_blank"><img class="project-image" src="https://htmlcolorcodes.com/assets/images/html-color-codes-color-palette-generators.jpg" alt="Image Placeholder"></a>
-			<p>Color Flipper (Javascript)</p>
-		</div>
-
-		<div class="project-tile">
-			<a href="https://kevguru.github.io/Counter/" target="_blank"><img class="project-image" src="https://www.sciencenews.org/wp-content/uploads/2018/05/050718_EC_numbers_feat.jpg" alt="Image Placeholder"></a>
-			<p>Counter (Javascript)</p>
-		</div>
-
-		<div class="project-tile">
-			<img class="project-image" src="https://designshack.net/wp-content/uploads/placeholder-image.png" alt="Image Placeholder">
-			<p>More Soon</p>
-		</div>
-
-		<div class="project-tile">
-			<img class="project-image" src="https://designshack.net/wp-content/uploads/placeholder-image.png" alt="Image Placeholder">
-			<p>More Soon</p>
-		</div>
-
+		<h1 id="work-title">Work</h1>
+	 	<div class="carousel">
+	    	<div class="carousel-item carousel-item-visible">
+	    		<a href="https://www.kevguru.com"><img class="carousel-photo" src="kevguru-screenshot.png"></a>
+	    		<a class="website-link" href="https://www.kevguru.com">www.kevguru.com</a>
+				<p class="carousel-text">This website was made for the artist Kev Guru, which is myself. As I was building this website I kept in mind, how can I make this website tell a story and also bring revenue. Im always thinking about the user/client expierince. I try to achieve for the website to be easy to navigate and also easy for the client to purchase the products. I had a really great time making this website, check this one out. </p>
+				<a class="website-link" href="https://www.kevguru.com">www.kevguru.com</a>
+	    	</div>
+	   		<div class="carousel-item">
+	    		<a href="https://kevguru.github.io/Elvis-Presley-Tribute/"><img class="carousel-photo" src="elvispresley-screenshot.png"></a>
+	    		<a class="website-link" href="https://kevguru.github.io/Elvis-Presley-Tribute/">Elvis Presley Tribute</a>
+				<p class="carousel-text">This website was made in memory of Elvis Presley. With this website I wanted to make sure that the user is able to find the information that they need, while also making it easy to do so. I also wanted to make this website tell a story. I had a really great time making this website, check this one out. </p>
+				<a class="website-link" href="https://kevguru.github.io/Elvis-Presley-Tribute/">Elvis Presley Tribute</a>
+	    	</div>
+	    	<div class="carousel-item">
+	    		<a href="https://kevguru.github.io/Record-Label-Form/"><img class="carousel-photo" src="gururecordzapplication-screenshot.png"></a>
+	    		<a class="website-link" href="https://kevguru.github.io/Record-Label-Form/">Record Label Form</a>
+				<p class="carousel-text">This website was made for Guru Recordz. With this website I wanted to make it professional, clean, and easy for the user to use. I wanted to make sure it was easy for the user to complete the form and also that the record label gets all the information that they need from the user. I had a really great time making this website, check this one out.</p>
+				<a class="website-link" href="https://kevguru.github.io/Record-Label-Form/">Record Label Form</a>
+	  		</div>
+	 	</div>
 	</div>
-
-	<!--<hr>
-
-	<div id="pricing-section">
-		
-
-
-
-
-
-	</div>-->
-
-
-	<hr>
-
-
-
+	<p><i id="arrow-right"></i></p>
+   	<p><i id="arrow-left"></i></p>
+    
 
 	<div id="contact-section">
-		<h3 id="contact-line">CONTACT</h3>
-		<p id="contact-info">KEVGURUU@GMAIL.COM<br>1-862-340-9261</p>
-		<a href="https://github.com/kevguru" target="_blank"><img id="github-link" src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU" alt="github"></a>
-	<div>
+		<h1 id="contact-title">Contact</h1>
+    	<p id="contact-line">For all inquiries, please fill out the contact form below.</p>
+    	<form id="contact-form" action="https://formsubmit.co/kevguruu@icloud.com" method="POST">
+      	<label>Name:</label>
+      	<input type="text" name="text">
+      	<label>Email:</label>
+      	<input type="email" name="email">
+      	<label>Inquiry:</label>
+      	<input id="inquiry-input" type="text" name="text">
+      	<input id="submit-button" type="submit" value="Submit">
+    	</form>
+	</div>
+
+	<nav id="bottom-nav">
+		<div class="bottom-nav-links" id="home-button"><a>Home</a></div>
+		<div class="bottom-nav-links" id="about-button"><a>About</a></div>
+		<div class="bottom-nav-links" id="work-button"><a>Work</a></div>
+		<div class="bottom-nav-links" id="contact-button"><a>Contact</a></div>
+	</nav>
+
 
 	<footer>
-		<!--<nav id="footer-nav-links">
-			<a id="terms-of-use-link">Terms Of Use</a>
-			<a id="about-this-site-link">About This Site</a>
-			<a id="site-map-link">Site Map</a>
-		</nav>-->
-		<p id="copyright">Copyright 2021. KevGuru Media.</p>
+		<p id="copyright">2021. Kev Guru Media.</p>
 	</footer>
-
 </div>
 
 
-</body>
 
+
+
+<script src="script.js"></script>
+</body>
 </html>
