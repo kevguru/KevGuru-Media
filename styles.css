@@ -323,7 +323,7 @@ label{
 
 #bottom-nav{
   margin-top: 4.9em;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
   display: flex;
   flex-direction: row;
   justify-content: center;
