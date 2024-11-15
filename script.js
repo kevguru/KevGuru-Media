@@ -157,6 +157,7 @@ aboutButton.addEventListener("click", function(){
 })
 
 contactButton.addEventListener("click", function(){
+    console.log("Contact button clicked");
     contactSection.style.display = "block"
     aboutSection.style.display = "none"
     workSection.style.display = "none"
