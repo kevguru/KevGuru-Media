@@ -195,8 +195,8 @@ webAppLink.addEventListener("click", function(){
 
 
 
-musicLink.addEventListener("click", function(){
+//musicLink.addEventListener("click", function(){
     musicSection.style.display = "block"
     workMenu.style.display = "none"
     workTitle.innerText = "Music"
-})
+//})

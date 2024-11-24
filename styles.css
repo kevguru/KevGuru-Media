@@ -235,6 +235,11 @@ body{
     animation: fadeVisibility 1.5s;
 }
 
+.partner-logos {
+  width: 15rem;
+  padding: 2rem 0 0 0;
+}
+
 @keyframes fadeVisibility {
     0% {
         opacity: 0;
