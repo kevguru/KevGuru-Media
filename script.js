@@ -3,6 +3,7 @@ let closeMenu = document.querySelector("#close-menu")
 let homeMobileLink = document.querySelector("#home-mobile-link")
 let workMobileLink = document.querySelector("#work-mobile-link")
 let aboutMobileLink = document.querySelector("#about-mobile-link")
+let servicesMobileLink = document.querySelector("#services-mobile-link")
 let contactMobileLink = document.querySelector("#contact-mobile-link")
 let workMenu = document.getElementById("work-menu")
 let carousel = document.querySelector(".carousel")
@@ -23,6 +24,7 @@ homeMobileLink.addEventListener("click", function(){
     landingSection.style.display = "block"
     contactSection.style.display = "none"
     aboutSection.style.display = "none"
+    servicesSection.style.display = "none"
     workSection.style.display = "none"
     arrowLeft.style.display = "none"
     arrowRight.style.display = "none"
@@ -33,6 +35,7 @@ workMobileLink.addEventListener("click", function(){
     landingSection.style.display = "none"
     contactSection.style.display = "none"
     aboutSection.style.display = "none"
+    servicesSection.style.display = "none"
     workSection.style.display = "block"
     arrowLeft.style.display = "none"
     arrowRight.style.display = "none"
@@ -49,6 +52,18 @@ aboutMobileLink.addEventListener("click", function(){
     landingSection.style.display = "none"
     contactSection.style.display = "none"
     aboutSection.style.display = "block"
+    servicesSection.style.display = "none"
+    workSection.style.display = "none"
+    arrowLeft.style.display = "none"
+    arrowRight.style.display = "none"
+    document.querySelector("#mobile-container").style.display = "none"
+})
+
+servicesMobileLink.addEventListener("click", function(){
+    landingSection.style.display = "none"
+    contactSection.style.display = "none"
+    aboutSection.style.display = "none"
+    servicesSection.style.display = "block"
     workSection.style.display = "none"
     arrowLeft.style.display = "none"
     arrowRight.style.display = "none"
@@ -59,6 +74,7 @@ contactMobileLink.addEventListener("click", function(){
     landingSection.style.display = "none"
     contactSection.style.display = "block"
     aboutSection.style.display = "none"
+    servicesSection.style.display = "none"
     workSection.style.display = "none"
     arrowLeft.style.display = "none"
     arrowRight.style.display = "none"
@@ -110,10 +126,12 @@ function moveToPrevSlide() {
 let homeButton = document.querySelector("#home-button")
 let workButton = document.querySelector("#work-button")
 let aboutButton = document.querySelector("#about-button")
+let servicesButton = document.querySelector("#services-button")
 let contactButton = document.querySelector("#contact-button")
 let landingSection = document.querySelector("#landing-section")
 let workSection = document.querySelector("#work-section")
 let aboutSection = document.querySelector("#about-section")
+let servicesSection = document.querySelector("#services-section")
 let contactSection = document.querySelector("#contact-section")
 let arrowLeft = document.querySelector("#arrow-left")
 let arrowRight = document.querySelector("#arrow-right")
@@ -123,6 +141,7 @@ let logo = document.querySelector("#logo-container")
 
 homeButton.addEventListener("click", function(){
     workSection.style.display = "none"
+    servicesSection.style.display = "none"
     landingSection.style.display = "block"
     aboutSection.style.display = "none"
     contactSection.style.display = "none"
@@ -137,6 +156,7 @@ workButton.addEventListener("click", function(){
     workMenu.style.display = "block"
     landingSection.style.display = "none"
     aboutSection.style.display = "none"
+    servicesSection.style.display = "none"
     contactSection.style.display = "none"
     carousel.style.display = "none"
     arrowLeft.style.display = "none"
@@ -148,6 +168,18 @@ workButton.addEventListener("click", function(){
 
 aboutButton.addEventListener("click", function(){
     aboutSection.style.display = "block"
+    servicesSection.style.display = "none"
+    workSection.style.display = "none"
+    landingSection.style.display = "none"
+    contactSection.style.display = "none"
+    arrowLeft.style.display = "none"
+    arrowRight.style.display = "none"
+    document.querySelector("#mobile-container").style.display = "none"
+})
+
+servicesButton.addEventListener("click", function(){
+    aboutSection.style.display = "none"
+    servicesSection.style.display = "block"
     workSection.style.display = "none"
     landingSection.style.display = "none"
     contactSection.style.display = "none"
@@ -160,6 +192,7 @@ contactButton.addEventListener("click", function(){
     console.log("Contact button clicked");
     contactSection.style.display = "block"
     aboutSection.style.display = "none"
+    servicesSection.style.display = "none"
     workSection.style.display = "none"
     landingSection.style.display = "none"
     arrowLeft.style.display = "none"
@@ -171,6 +204,7 @@ logo.addEventListener("click", function(){
     landingSection.style.display = "block"
     contactSection.style.display = "none"
     aboutSection.style.display = "none"
+    servicesSection.style.display = "none"
     workSection.style.display = "none"
     arrowLeft.style.display = "none"
     arrowRight.style.display = "none"
